@@ -106,7 +106,7 @@ body{
      display: block;
 }
 
-.my-form.input[type="text"], my-form textarea{
+.my-form input[type="text"], .my-form textarea {
      padding:8px;
      width: 100%;
 }
@@ -155,17 +155,25 @@ a:visited{
 
 #main-block{
 	float:left;
-	width=70%;
+	width:70%;
 	padding:15px;
 	box-sizing: border-box;
 }
 
 #sidebar{
 	float:right;
-	width=30%;
+	width:30%;
 	background-color:#333;
         color:#fff; 
 	padding:15px;
 	box-sizing: border-box;
+}
+
+.p-box{
+	width:800px;
+	height:500px;
+	border:1px solid #000;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
